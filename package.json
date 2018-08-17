@@ -1,9 +1,8 @@
 {
-  "author": "DIY Co. <https://diy.org>",
+  "author": "cyrz",
   "name": "super-simple-server",
-  "description": "DIY Simple Server Example for Backend Dev Skill",
-  "homepage": "http://bedev.herokuapp.com/challenge/2",
-  "repository": "http://githuh.com/diy/super-simple-server",
+  "description": "Simple Server Example",
+  "repository": "http://githuh.com/cyrz/super-simple-server",
   "version": "0.0.1",
   "dependencies": {
   },

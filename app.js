@@ -1,8 +1,6 @@
 /** 
- * DIY Static Server Example
+ * Simple Static Server
  *
- * @package diy-simp-server
- * @author jllord <to.jlord@gmail.com>
  */
 
 
@@ -23,5 +21,3 @@ var server = http.createServer(requestHandler);
 var port = process.env.PORT || 3000;
 server.listen(port);
 console.log('Listening on port 3000');
-
-

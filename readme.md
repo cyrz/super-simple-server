@@ -1,14 +1,27 @@
 # Super Simple Server
 
-This is a super, super simple static file server that assumes you have one simple index.html, ready to be served. 
+This is a super, super simple web server. It will serve up your index.html file. 
 
-![response-request](http://diy-visualpedia.s3.amazonaws.com/request-response.png)
-
-It was created for the DIY Backend Dev Skill to illustrate request and responses between servers and browsers and modules on [NPM](http://www.npmjs.org). 
-
-The [DIY Backend Dev Skill](http://www.diy.org/skills/backenddev).
-The [DIY Intro](http://bedev.herokuapps.com/challenge/2) for the challenge on using a server from NPM.
-
-## To Run
+## To Run Locally
 
      node app.js
+
+     Open your web browser to localhost:3000
+
+## To deploy to heroku
+
+     Go to heroku.com and create a free account. You'll need a valid email address.
+
+     In your folder where you have your index.html file type:
+
+     heroku login
+
+     heroku create your-app-name
+
+     git push heroku master
+
+     heroku ps:scale web=1
+
+     heroku open
+
+
